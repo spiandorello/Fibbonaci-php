@@ -32,4 +32,8 @@
     <php>
         <const name="PHPUNIT_TESTSUITE" value="true"/>
     </php>
+
+    <extensions>
+        <extension class="Psalm\Shepherd\Test\Extension\FailureTracker" />
+    </extensions>
 </phpunit>
