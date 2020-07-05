@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1593979613">
+  <project timestamp="1593979613">
+    <package name="Fibonacci">
+      <file name="/Users/dudu/Documents/Fibonacci/src/Fibonacci.php">
+        <class name="Fibonacci\Fibonacci" namespace="Fibonacci">
+          <metrics complexity="7" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="9" elements="18" coveredelements="12"/>
+        </class>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="18" type="method" name="getSeries" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="27" type="method" name="isFibonacci" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="40" type="method" name="calcSeries" visibility="private" complexity="2" crap="2" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <metrics loc="47" ncloc="47" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="9" elements="18" coveredelements="12"/>
+      </file>
+    </package>
+    <file name="/Users/dudu/Documents/Fibonacci/src/index.php">
+      <line num="3" type="stmt" count="0"/>
+      <metrics loc="2" ncloc="2" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="2" loc="49" ncloc="49" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="9" elements="18" coveredelements="12"/>
+  </project>
+</coverage>
