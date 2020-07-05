@@ -18,6 +18,6 @@
         }
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit --testdox tests"
+        "test": "./vendor/bin/phpunit --testdox --coverage-clover=coverage.xml tests"
     }
 }
