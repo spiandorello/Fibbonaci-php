@@ -14,9 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    run: |
-      sudo apt-get update && sudo apt-get install -y php-xdebug
-    name: Install PHP-XDEBUG
+    - name: Install PHP-XDEBUG
+      run: sudo apt-get update && sudo apt-get install -y php-xdebug
 
     - name: Validate composer.json and composer.lock
       run: composer validate
