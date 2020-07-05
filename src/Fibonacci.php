@@ -4,7 +4,7 @@ namespace Fibonacci;
 
 class Fibonacci
 {
-    const LAST_NUMBER = 10;
+    const LAST_NUMBER = 9;
 
     private int $lastNumber;
     private array $fibonacci;
